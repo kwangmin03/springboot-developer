@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
-
 @RestController
 public class TestController {
     @Autowired
@@ -16,14 +14,17 @@ public class TestController {
 
     @GetMapping("/test")
     // @ResponseBody
-    public ResponseEntity<List<Member>> getAllMembers() {
-
-        return ResponseEntity.ok(testService.getAllMembers());
-    }
+//    public ResponseEntity<List<Member>> getAllMembers() {
+//
+//        return ResponseEntity.ok(testService.getAllMembers());
+//    }
 //    public List<Member> getAllMembers() {
 //        List<Member> members = testService.getAllMembers();
 //        return members;
 //    }
+      public String getTestAPI(){
+        return "Hello World";
+    }
 
     @PostMapping("/test")
     public ResponseEntity<Member> createMember(@RequestBody Member member) {
