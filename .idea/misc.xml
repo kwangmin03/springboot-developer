@@ -18,10 +18,10 @@
           <item index="4" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
           <item index="5" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
           <item index="6" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
-          <item index="7" class="java.lang.String" itemvalue="jakarta.annotation.Nullable" />
-          <item index="8" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
-          <item index="9" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
-          <item index="10" class="java.lang.String" itemvalue="org.springframework.lang.Nullable" />
+          <item index="7" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="8" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="9" class="java.lang.String" itemvalue="org.springframework.lang.Nullable" />
+          <item index="10" class="java.lang.String" itemvalue="jakarta.annotation.Nullable" />
         </list>
       </value>
     </option>
@@ -35,10 +35,10 @@
           <item index="4" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
           <item index="5" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
           <item index="6" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
-          <item index="7" class="java.lang.String" itemvalue="jakarta.annotation.Nonnull" />
-          <item index="8" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
-          <item index="9" class="java.lang.String" itemvalue="lombok.NonNull" />
-          <item index="10" class="java.lang.String" itemvalue="org.springframework.lang.NonNull" />
+          <item index="7" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="8" class="java.lang.String" itemvalue="org.springframework.lang.NonNull" />
+          <item index="9" class="java.lang.String" itemvalue="jakarta.annotation.Nonnull" />
+          <item index="10" class="java.lang.String" itemvalue="lombok.NonNull" />
         </list>
       </value>
     </option>
